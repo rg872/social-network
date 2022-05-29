@@ -1,0 +1,30 @@
+<header class="header">
+  <div class="header__top-container">
+    <h1 class="header__logo">SOCIAL<span class="header__logo--thin">NETWORK</span></h1>
+    <span class="header__search-input-wrapper p-input-icon-right">
+      <i class="pi pi-search"></i>
+      <input class="header__search-input" type="text" pInputText [(ngModel)]="searchKeyword" />
+    </span>
+    <div class="header__user">
+      <p-button styleClass="header__upload-button" label="Upload" icon="pi pi-arrow-up" iconPos="left"></p-button>
+      <app-user-avatar [firstName]="'Warsheed'" [lastName]="'Kashan'" [imageUrl]="''"></app-user-avatar>
+    </div>
+  </div>
+  <p-divider styleClass="header__divider"></p-divider>
+  <nav class="header__nav">
+    <a class="header__link" href="/">Videos</a>
+    /
+    <a class="header__link" href="/">People</a>
+    /
+    <a class="header__link" href="/">Documents</a>
+    /
+    <a class="header__link" href="/">Events</a>
+    /
+    <a class="header__link" href="/">Communities</a>
+    /
+    <a class="header__link" href="/">Favorites</a>
+    /
+    <a class="header__link" href="/">Channels</a>
+  </nav>
+  <p-divider styleClass="header__divider"></p-divider>
+</header>

@@ -1,0 +1,55 @@
+@use '../../../../assets/styles/variables' as *;
+
+.header {
+  &__top-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-family: Inter;
+
+    &--thin {
+      font-weight: 200;
+      color: #f7f7f7;
+    }
+  }
+
+  &__search-input-wrapper {
+    max-width: 1250px;
+    flex-grow: 5;
+  }
+
+  &__search-input {
+    width: 100%;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  :host ::ng-deep &__upload-button {
+    background-color: #ffffff;
+    color: $color-primary;
+  }
+
+  :host ::ng-deep &__divider::before {
+    color: white;
+    border-top: 1px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+
+  &__link {
+    font-weight: 600;
+  }
+}

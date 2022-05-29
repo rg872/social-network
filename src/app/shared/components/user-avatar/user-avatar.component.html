@@ -1,0 +1,11 @@
+<span class="user-avatar">
+  <p-avatar *ngIf="!!imageUrl else iconAvatar" [image]="imageUrl"></p-avatar>
+  <ng-template #iconAvatar>
+    <p-avatar icon="pi pi-user" size="large"></p-avatar>
+  </ng-template>
+
+  <div class="user-avatar__name-container">
+    <p class="user-avatar__name user-avatar__name--big">{{firstName}}</p>
+    <p class="user-avatar__name">{{lastName}}</p>
+  </div>
+</span>
