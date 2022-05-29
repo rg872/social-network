@@ -7,4 +7,60 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'salt-web';
+  contentList = [
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+    {
+      thumbnailUrl: 'https://dlcdnrog.asus.com/rog/media/1637784966993.jpg',
+      title: 'Judul Clicbait',
+      subTitle: 'By Wasim Arsed',
+      info: '666 view',
+    },
+  ]
 }

@@ -1,1 +1,8 @@
-<app-header></app-header>
+<main>
+  <app-header></app-header>
+  <div [style.width]="'70%'">
+    <app-content-gallery [type]="'video'" [contentList]="contentList"></app-content-gallery>
+    <app-content-gallery [type]="'people'" [contentList]="contentList"></app-content-gallery>
+    <app-content-gallery [type]="'document'" [contentList]="contentList"></app-content-gallery>
+  </div>
+</main>

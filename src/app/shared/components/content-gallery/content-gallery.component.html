@@ -1,0 +1,17 @@
+<section class="content-gallery">
+  <div class="content-gallery__head">
+    <h1 class="content-gallery__title">{{title}}</h1>
+    <a class="content-gallery__view-all" href="/">View all {{ title | lowercase }}</a>
+  </div>
+  <div class="content-gallery__content-container">
+    <app-content-card class="content-gallery__content-main" [title]="contentList[0].title"
+      [subTitle]="contentList[0].subTitle" [info]="contentList[0].info" [thumbnailUrl]="contentList[0].thumbnailUrl"
+      [paddingBottom]="'60%'">
+    </app-content-card>
+    <ng-template ngFor let-data [ngForOf]="contentList" let-i="index" [ngForTrackBy]="trackContentByFn">
+      <app-content-card *ngIf="i > 0 && i < 5" [title]="data.title" [subTitle]="data.subTitle" [info]="data.info"
+        [thumbnailUrl]="data.thumbnailUrl"></app-content-card>
+    </ng-template>
+    <app-action-card [icon]="actionIcon" [text]="actionText" [subText]="actionSubText"></app-action-card>
+  </div>
+</section>
