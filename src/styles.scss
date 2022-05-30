@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@use './assets/styles/variables.scss' as *;
 
 @font-face {
   font-family: Inter;
@@ -12,7 +11,7 @@
 }
 
 body {
-  background-color: $color-primary;
+  background-color: #a3174d;
   margin: 0 16px;
   font-family: Montserrat;
   color: white;
